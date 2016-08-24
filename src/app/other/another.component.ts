@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-another',
   template: `
     <p>
-      another Works!
+      <ng-content></ng-content>
     </p>
   `,
   styles: []

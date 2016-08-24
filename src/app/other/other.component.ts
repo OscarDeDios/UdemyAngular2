@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['other.component.css']
 })
 export class OtherComponent  {
-
-
+  stringInterpolation = 'Probando string intepolation';
+  numberInterpolation = 2;
+  onTest() {
+    return true;
+  }
 }
