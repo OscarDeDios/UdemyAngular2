@@ -7,3 +7,9 @@
 <input type="text" [value]="stringInterpolation" >
 <p [ngClass]="{redBorder: onTest()}">Styled?</p>
 <p [ngStyle]="{color: 'blue'}">Styled?</p>
+
+<h1>Custom Binding</h1>
+Número: <app-property-binding [result]="10"></app-property-binding>
+
+<h1>Event Binding</h1>
+<app-event-binding (clicked)="onClicked($event)"></app-event-binding>

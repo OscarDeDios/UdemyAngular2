@@ -12,4 +12,7 @@ export class OtherComponent  {
   onTest() {
     return true;
   }
+  onClicked(value:string) {
+    alert(value);
+  }
 }
