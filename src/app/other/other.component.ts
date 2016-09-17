@@ -15,4 +15,7 @@ export class OtherComponent  {
   onClicked(value:string) {
     alert(value);
   }
+  delete = false;
+  test = 'Starting Value';
+  boundValue = 1000;
 }
